@@ -16,17 +16,17 @@ async def start(client, message):
        await sbot.send_message(
                chat_id=message.chat.id,
                text="""<b>Hey There, I'm Telegraph  Bot
-I can upload photos or videos to telegraph. Made by 𝙎𝙞𝙩𝙝𝙪𝙢 𝘽𝙖𝙩𝙧𝙤𝙬 🇱🇰
+I can upload photos or videos to telegraph. Made by SOURCE VEGA Dav ALI ♡
 Hit help button to find out more about how to use me</b>""",   
                             reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
                                             "Help", callback_data="help"),
                                         InlineKeyboardButton(
-                                            "Channel", url="https://t.me/YouTech_VPN_HUB")
+                                            "Channel", url="https://t.me/SOURCEVEGGA")
                                     ],[
                                       InlineKeyboardButton(
-                                            "Support", url="https://t.me/YouTech_Support")
+                                            "Support", url="https://t.me/GROUPVEGA")
                                     ]]
                             ),        
             disable_web_page_preview=True,        
@@ -38,7 +38,7 @@ async def help(client, message):
                chat_id=message.chat.id,
                text="""<b>Telegraph Bot Help!
 Just send a photo or video less than 5mb file size, I'll upload it to telegraph.
-~ @YouTech_Support</b>""",
+~ @GROUPVEGA</b>""",
         reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
@@ -58,10 +58,10 @@ async def about(client, message):
         await sbot.send_message(
                chat_id=message.chat.id,
                text="""<b>About Telegraph Bot!</b>
-<b>♞ Developer:</b> <a href="https://t.me/sbatrow"> 𝙎𝙞𝙩𝙝𝙪𝙢 𝘽𝙖𝙩𝙧𝙤𝙬 🇱🇰 </a>
-<b>♞ Support:</b> <a href="https://t.me/YouTech_Support">YouTech Support</a>
+<b>♞ Developer:</b> <a href="https://t.me/SOURCEVEGGA"> SOURCE VEGA ♡ </a>
+<b>♞ Support:</b> <a href="https://t.me/GROUPVEGA">Support</a>
 <b>♞ Library:</b> <a href="https://github.com/pyrogram/pyrogram">Pyrogram</a>
-<b>~ @YouTech_Support</b>""",
+<b>~ @GROUPVEGA/b>""",
      reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
@@ -82,7 +82,7 @@ async def telegraphphoto(client, message):
     except:
         await msg.edit_text("Photo size should be less than 5mb!") 
     else:
-        await msg.edit_text(f'**Uploaded To Telegraph!\n\n👉 https://telegra.ph{response[0]}\n\nJoin @YouTech_Support**',
+        await msg.edit_text(f'**Uploaded To Telegraph!\n\n👉 https://telegra.ph{response[0]}\n\nJoin @GROUPVEGA**',
             disable_web_page_preview=True,
         )
     finally:
@@ -97,7 +97,7 @@ async def telegraphvid(client, message):
     except:
         await msg.edit_text("Video size should be less than 5mb!") 
     else:
-        await msg.edit_text(f'**Uploaded To Telegraph!\n\n👉 https://telegra.ph{response[0]}\n\nJoin @YouTech_Support**',
+        await msg.edit_text(f'**Uploaded To Telegraph!\n\n👉 https://telegra.ph{response[0]}\n\nJoin @GROUPVEGAt**',
             disable_web_page_preview=True,
         )
     finally:
@@ -112,7 +112,7 @@ async def telegraphgif(client, message):
     except:
         await msg.edit_text("Gif size should be less than 5mb!") 
     else:
-        await msg.edit_text(f'**Uploaded To Telegraph!\n\n👉 https://telegra.ph{response[0]}\n\nJoin @YouTech_Support**',
+        await msg.edit_text(f'**Uploaded To Telegraph!\n\n👉 https://telegra.ph{response[0]}\n\nJoin @GROUPVEGA**',
             disable_web_page_preview=True,
         )
     finally:
